@@ -1,10 +1,14 @@
 import './App.css';
-import pigeon from "./BirdBackground.jpg"
+import pigeon from "./BirdBackground.jpg";
+import { useState } from 'react';
+import dandc from "./divideAndConquer.pdf";
+
+import { pdfjs } from 'react-pdf';
+
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="App">      
       <header className="App-header">
         <img src = {pigeon} className='Pigeon-picture'></img>
 
@@ -28,6 +32,9 @@ function App() {
             <div>Aiden Nipper: TBA@ucf.edu</div>
             <div>Will DiSalvo: TBA@ucf.edu</div>
           </div>
+        <div className='paper-container'>
+      <a className = 'divide' target='_blank' href = {dandc}>Divide and Conquer </a>
+        </div>
         </div>
       </header>
     </div>
