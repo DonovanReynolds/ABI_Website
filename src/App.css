@@ -79,17 +79,17 @@
   
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 3em ;
   justify-content: center;
   column-gap: 10%;
   padding: 10px;
-  row-gap: 1%;
+  row-gap: 50%;
   font-size: 1.5em;
   color: white;
 }
 
 .divide {
 	color: #2596be;
+  padding-bottom: 3px;
   position: relative;
   text-decoration: none;
 }
@@ -135,6 +135,30 @@
   align-items: center;
   justify-content: center;
   font-size: 1.4em;
+  color: white;
+}
+
+.demo-container{
+  background-color: #282c34;
+  margin-bottom: 2em;
+  display: flexbox;
+  justify-content: center;
+  column-gap: 10%;
+  padding-top: 10px;
+  row-gap: 1%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.demo-title{
+  background-color: #282c34;
+  padding-bottom:1em;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
   color: white;
 }
 

@@ -47,12 +47,19 @@ function App() {
           Bahaa Saleh<br></br>
           Reza Abdolvand
         </div>
+
+        <div className='demo-container'>
+          <div className = 'demo-title'>Parts and Demo</div>
+          <a className = 'divide' target='_blank' href = "https://youtu.be/L8qgK5_zG4o">Senior Design 1 Parts and Demo Explanation </a>
+        </div>
+
         <div className = 'Reviewer-Title'>Papers</div>
         <div className='paper-container'>
       <a className = 'divide' target='_blank' href = {dandc}>Divide and Conquer </a>
       <a className = 'divide' target='_blank' href = {DCRevision}>Divide and Conquer Revision </a>
       <a className = 'divide' target='_blank' href = {half_report}>60-Page-Report </a>
         </div>
+        
         </div>
       </header>
     </div>
