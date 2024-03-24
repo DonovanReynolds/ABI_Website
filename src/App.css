@@ -141,7 +141,7 @@
 .demo-container{
   background-color: #282c34;
   margin-bottom: 2em;
-  display: flexbox;
+  display: grid;
   justify-content: center;
   column-gap: 10%;
   padding-top: 10px;

@@ -22,6 +22,9 @@ function App() {
           <h1 className='Page-title'>
           B.I.R.D.S.
           </h1>
+          <h1 className='Page-Sponsor'>
+            Sponsored by Justin Phelps
+          </h1>
           <p className='Page-intro'>
           For decades, governments and societies around the world have attempted to discourage the act of littering. Some have implemented educational programs to educate the public and others enforce it by law and threat of force. In the United States, public programs to incentivize proper waste disposal have mostly worked, at least for younger generations. However, a non-negligible amount of trash is still generated in public spaces, whether due to inconvenience or neglect.  All current solutions for public clean up involve extensive energy cost. Whether using volunteers, convict labor, or salaried street cleaners, they all require active effort to keep streets clean. 
           <br></br><br></br>The B.I.R.D.S. project will be a device that can be used to train birds to pick up trash. Birds are very smart creatures and there have been many occasions where they have been trained with enough consistency. Since birds have such free access to many locations, they would be great candidates to picking up different bits of trash. The birds will bring in trash and be rewarded as long as they bring the right things in. This is a classical conditioning for birds to show them that depositing trash to the B.I.R.D.S. is beneficial for them. 
@@ -52,6 +55,8 @@ function App() {
         <div className='demo-container'>
           <div className = 'demo-title'>Parts and Demo</div>
           <a className = 'divide' target='_blank' href = "https://youtu.be/L8qgK5_zG4o">Senior Design 1 Parts and Demo Explanation </a>
+          <br></br>
+          <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=Zf_vuUkW1Bc" >Midterm Demo</a>
         </div>
 
         <div className = 'Reviewer-Title'>Papers</div>
@@ -60,6 +65,7 @@ function App() {
       <a className = 'divide' target='_blank' href = {DCRevision}>Divide and Conquer Revision </a>
       <a className = 'divide' target='_blank' href = {half_report}>60 Page Report </a>
       <a className = 'divide' target='_blank' href = {final_report}>Final Report </a>
+      
         </div>
         
         </div>
