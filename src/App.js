@@ -5,6 +5,7 @@ import dandc from "./divideAndConquer.pdf";
 import DCRevision from "./DCRevision.pdf"
 import half_report from "./60-Page-Report.pdf"
 import final_report from "./BIRDS_Final_Report.pdf"
+import page_8_doc from "./SD2_G12_8-page_conferencepaper.pdf"
 
 
 
@@ -57,6 +58,10 @@ function App() {
           <a className = 'divide' target='_blank' href = "https://youtu.be/L8qgK5_zG4o">Senior Design 1 Parts and Demo Explanation </a>
           <br></br>
           <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=Zf_vuUkW1Bc" >Midterm Demo</a>
+          <br></br>
+          <a className = 'divide' target='_blank' href = {page_8_doc} >8 Page Paper</a>
+          
+          
         </div>
 
         <div className = 'Reviewer-Title'>Papers</div>
