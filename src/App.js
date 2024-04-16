@@ -59,7 +59,7 @@ function App() {
           <a className = 'divide' target='_blank' href = "https://youtu.be/L8qgK5_zG4o">Senior Design 1 Parts<br></br>& <br></br>Demo Explanation </a>
           <a className = 'midterm-demo' target='_blank' href = "https://www.youtube.com/watch?v=Zf_vuUkW1Bc" >Midterm Demo</a>
           <a className = 'divide' target='_blank' href = {page_8_doc} >8 Page Paper</a>
-          <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=mSGcRc88mtw" >Final Presentation</a>
+          <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=T2Pxi1Ozvas" >Final Presentation</a>
           
           
         </div>
