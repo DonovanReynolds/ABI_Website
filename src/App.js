@@ -12,7 +12,7 @@ import page_8_doc from "./SD2_G12_8-page_conferencepaper.pdf"
 
 function App() {
   return (
-    <div className="App">      
+    <div className="App">    
       <header className="App-header">
         <img src = {pigeon} className='Pigeon-picture'></img>
 
@@ -57,9 +57,10 @@ function App() {
         <div className='paper-container'>
           
           <a className = 'divide' target='_blank' href = "https://youtu.be/L8qgK5_zG4o">Senior Design 1 Parts<br></br>& <br></br>Demo Explanation </a>
-          <a className = 'midterm-demo' target='_blank' href = "https://www.youtube.com/watch?v=Zf_vuUkW1Bc" >Midterm Demo</a>
-          <a className = 'divide' target='_blank' href = {page_8_doc} >8 Page Paper</a>
-          <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=T2Pxi1Ozvas" >Final Presentation</a>
+          
+          <a className = 'midterm-demo' target='_blank' href = {page_8_doc} >8 Page Paper</a>
+          <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=T2Pxi1Ozvas" >Final Demo</a>
+          <a className = 'divide' target='_blank' hre f = "https://youtu.be/z14HredlDTw" >Final Presentation</a>
           
           
         </div>
