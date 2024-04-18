@@ -60,7 +60,7 @@ function App() {
           
           <a className = 'midterm-demo' target='_blank' href = {page_8_doc} >8 Page Paper</a>
           <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=T2Pxi1Ozvas" >Final Demo</a>
-          <a className = 'divide' target='_blank' hre f = "https://youtu.be/z14HredlDTw" >Final Presentation</a>
+          <a className = 'divide' target='_blank' href = "https://www.youtube.com/watch?v=z14HredlDTw" >Final Presentation</a>
           
           
         </div>
