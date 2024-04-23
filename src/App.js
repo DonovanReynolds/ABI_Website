@@ -6,6 +6,9 @@ import DCRevision from "./DCRevision.pdf"
 import half_report from "./60-Page-Report.pdf"
 import final_report from "./BIRDS_Final_Report.pdf"
 import page_8_doc from "./SD2_G12_8-page_conferencepaper.pdf"
+import finalSlides from "./Final_PresentationSlides.pdf"
+import final120Page from "./FinalFinalReport.pdf"
+import midCDR from "./Midterm_CDR.pdf"
 
 
 
@@ -71,6 +74,10 @@ function App() {
       <a className = 'divide' target='_blank' href = {DCRevision}>Divide and Conquer Revision </a>
       <a className = 'divide' target='_blank' href = {half_report}>60 Page Report </a>
       <a className = 'divide' target='_blank' href = {final_report}>Final Report </a>
+
+      <a className = 'divide' target='_blank' href = {finalSlides}>Final Presentation Slides </a>
+      <a className = 'divide' target='_blank' href = {midCDR}>Midterm CDR</a>
+      <a className = 'divide' target='_blank' href = {final120Page}>Final Report </a>
       
         </div>
         
